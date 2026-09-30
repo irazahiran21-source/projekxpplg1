@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fffbff;
+    text-align: center;
+}
+header{
+    text-align: center;
+    background-color: #fa01fa;
+    color: black;
+    padding: 25px;
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 12px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+nav a:hover{
+    color: palevioletred;
+}
+main{
+    width: 90%;
+    margin: auto;
+}
+#beranda{
+    background-color: white;
+    text-align: center;
+    padding: 50px 30px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+#profil,
+#kompetensi,
+#kontak{
+    background-color: white;
+    padding: 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+.kartu{
+    background-color: rgb(243, 148, 230);
+    padding: 20px;
+    border: 1px solid rgb(230, 141, 215);border-radius: 8px;
+}
+.daftarkompetensi{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.kartukompetensi{
+    flex: 1;
+    min-width: 200px;
+    background-color: rgb(223, 159, 243);
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+.kartukontak{
+    background-color: rgb(216, 148, 243);
+    text-align: center;
+    padding: 50px 30px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    background-color: pink;
+    padding: 13px;
+    font-size: 14px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+.gambar-halaman {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+    padding: 15px;
+}
